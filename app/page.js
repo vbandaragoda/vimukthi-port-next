@@ -16,6 +16,7 @@ import Image3 from "../public/Image3.jpg";
 import Image4 from "../public/Image4.jpg";
 import Image5 from "../public/Image5.jpg";
 import Image6 from "../public/Image6.jpg";
+import Logo from "../public/logo.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -249,8 +250,8 @@ export default function Home() {
                 Contact me
               </h2>
               <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
-                Got an idea? Want to disscuss about new project? "Need help with
-                planning your event?" Let me know.
+                Got an idea? Want to disscuss about new project? Need help with
+                planning your event? Let me know.
               </p>
               <form action="#" className="space-y-8">
                 <div>
@@ -312,7 +313,8 @@ export default function Home() {
             <div className="w-full max-w-screen-xl mx-auto pb-4 md:py-8 ">
               <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="/" className="flex items-center mb-4 sm:mb-0">
-                  <img src="/logo.png" className="h-8 mr-3" alt="Logo" />
+                {/* <img src="./Logo.png" className="h-8 mr-3"/> */}
+                  <Image src={Logo} className="h-8 w-auto mr-3" alt="Logo" />
                   <span className="text-2xl font-burtons dark:text-white">
                     vimukthi
                   </span>
