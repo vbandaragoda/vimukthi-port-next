@@ -45,7 +45,9 @@ export default function Home() {
                 <li>
                   <a
                     href="https://drive.google.com/file/d/1mYu3gi8OIWL9xb2_UMhZNHTu1b-0hjyh/view?usp=drive_link"
-                    className="text-white bg-gradient-to-r from-cyan-500 to-teal-500 tet-white px-4 py-2 rounded-md ml-8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   >
                     Resume
                   </a>
@@ -96,10 +98,10 @@ export default function Home() {
                 Services I offer
               </h3>
               <p className="text-md py-2 leading-8 text-gray-800  dark:text-slate-300 text-center">
-                Im a UI/UX designer, photographer, and WordPress developer
-                with 2 years of experience. I possess a keen eye for detail and
-                a deep understanding of user-centric design principles. I excel
-                at crafting intuitive interfaces, capturing captivating moments
+                Im a UI/UX designer, photographer, and WordPress developer with
+                2 years of experience. I possess a keen eye for detail and a
+                deep understanding of user-centric design principles. I excel at
+                crafting intuitive interfaces, capturing captivating moments
                 through photography, and building customized and responsive
                 WordPress websites. My multidisciplinary approach, attention to
                 detail, and dedication to delivering high-quality results make
@@ -202,7 +204,6 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -211,7 +212,6 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -220,7 +220,6 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -229,7 +228,6 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  
                 />
               </div>
               <div className="basis-1/3 flex-1">
@@ -238,7 +236,6 @@ export default function Home() {
                   className="rounded-lg object-cover"
                   width={"100%"}
                   height={"100%"}
-                  
                 />
               </div>
             </div>
@@ -313,7 +310,7 @@ export default function Home() {
             <div className="w-full max-w-screen-xl mx-auto pb-4 md:py-8 ">
               <div className="sm:flex sm:items-center sm:justify-between">
                 <a href="/" className="flex items-center mb-4 sm:mb-0">
-                {/* <img src="./Logo.png" className="h-8 mr-3"/> */}
+                  {/* <img src="./Logo.png" className="h-8 mr-3"/> */}
                   <Image src={Logo} className="h-8 w-auto mr-3" alt="Logo" />
                   <span className="text-2xl font-burtons dark:text-white">
                     vimukthi
