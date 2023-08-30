@@ -17,6 +17,7 @@ import Image4 from "../public/Image4.jpg";
 import Image5 from "../public/Image5.jpg";
 import Image6 from "../public/Image6.jpg";
 import Logo from "../public/logo.png";
+sjdno widp[]
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
