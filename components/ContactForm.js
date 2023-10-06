@@ -2,42 +2,6 @@ import React, { useState } from "react";
 
 // Handle form submission logic here
 const ContactForm = () => {
-  const [formData, setFormData] = useState({
-    email: "",
-    subject: "",
-    message: "",
-  });
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    try {
-      const response = await fetch("/api/email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        console.log("Server received the data");
-        // Reset the form or show a success message
-      } else {
-        console.error("Error sending data to the server");
-        // Handle error case
-      }
-    } catch (error) {
-      console.error("Error:", error);
-      // Handle error case
-    }
-  };
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
-
   return (
     <section id="contact" className="bg-white px-5 dark:bg-gray-900">
       {/* Rest of your contact form HTML */}
@@ -52,7 +16,7 @@ const ContactForm = () => {
           planning your event? Let me know.
         </p>
 
-        <form onSubmit={handleSubmit} className="space-y-8">
+        <form className="space-y-8">
           <div>
             <label
               htmlFor="email"
@@ -63,8 +27,8 @@ const ContactForm = () => {
             <input
               type="email"
               id="email"
-              value={formData.email}
-              onChange={handleChange}
+              //value={email}
+              //onChange={handleChange}
               className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               placeholder="name@email.com"
               required
@@ -80,8 +44,8 @@ const ContactForm = () => {
             <input
               type="text"
               id="subject"
-              value={formData.subject}
-              onChange={handleChange}
+              //value={subject}
+              //onChange={handleChange}
               className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
               placeholder="Let me know how I can help you"
               required
@@ -105,8 +69,8 @@ const ContactForm = () => {
           <button
             type="submit"
             id="submit"
-            value={formData.submit}
-            onChange={handleChange}
+           // value={submit}
+           // onChange={handleChange}
             className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-teal-600 sm:w-fit focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800 dark:text-white mx-auto"
           >
             Send message
