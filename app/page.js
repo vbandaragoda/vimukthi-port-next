@@ -6,6 +6,8 @@ import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import TestNav from "@/components/TestNav";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -13,13 +15,11 @@ export default function Home() {
     <>
       <div className={darkMode ? "dark" : ""}>
         <main className="bg-white px-5 md:px-20 lg:px-40 dark:bg-gray-900">
-          
-          <NavBar />
-
+          <TestNav />
+          {/* <NavBar /> */}
           <About />
 
           <Services />
-
           <Portfolio />
 
           <ContactForm />
