@@ -28,7 +28,7 @@ const About = () => {
         </h3>
 
         <p className="text-m py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-slate-300">
-          I'm a Freelancer providing services for developing and design content
+          Im a Freelancer providing services for developing and design content
           needs. Join me down below and lets get cracking!
         </p>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
