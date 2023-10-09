@@ -36,12 +36,12 @@ function Navbar({ darkMode, toggleDarkMode }) {
 
       <ul className={`md:flex ${active}`}>
         <li className="nav-item">
-          <a href="/" className="nav-link text-gray-900  dark:text-white">
+          <a href="#" className="nav-link text-gray-900  dark:text-white">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a href="/about" className="nav-link text-gray-900  dark:text-white">
+          <a href="#" className="nav-link text-gray-900  dark:text-white">
             About
           </a>
         </li>

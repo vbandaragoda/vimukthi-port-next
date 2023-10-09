@@ -6,6 +6,12 @@ import Image3 from "../public/Image3.jpg";
 import Image4 from "../public/Image4.jpg";
 import Image5 from "../public/Image5.jpg";
 import Image6 from "../public/Image6.jpg";
+import Image7 from "../public/Image7.jpg";
+import Image8 from "../public/Image8.jpg";
+import Image9 from "../public/Image9.jpg";
+import Image10 from "../public/Image10.jpg";
+import Image11 from "../public/Image11.jpg";
+import Image12 from "../public/Image12.jpg";
 
 const Portfolio = () => {
   return (
@@ -66,6 +72,55 @@ const Portfolio = () => {
         <div className="basis-1/3 flex-1">
           <Image
             src={Image6}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image7}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image8}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image9}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image10}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image11}
+            className="rounded-lg object-cover"
+            width={"100%"}
+            height={"100%"}
+          />
+        </div>
+        <div className="basis-1/3 flex-1">
+          <Image
+            src={Image12}
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}

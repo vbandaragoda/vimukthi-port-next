@@ -12,7 +12,7 @@ const Services = () => {
           Services I offer
         </h3>
         <p className="text-md py-2 leading-8 text-gray-800  dark:text-slate-300 text-center">
-          Im a UI/UX designer, photographer, and WordPress developer with 2
+          I'm a UI/UX designer, photographer, and WordPress developer with 2
           years of experience. I possess a keen eye for detail and a deep
           understanding of user-centric design principles. I excel at crafting
           intuitive interfaces, capturing captivating moments through
@@ -41,7 +41,6 @@ const Services = () => {
           </h3>
           <p>Creating elegant designs suited for your needs.</p>
           <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-          <p className="text-gray-800 py-1">Photoshop</p>
           <p className="text-gray-800 py-1">Illustrator</p>
           <p className="text-gray-800 py-1">Figma</p>
           <p className="text-gray-800 py-1">Adobe Xd</p>
@@ -83,6 +82,7 @@ const Services = () => {
           </p>
           <h4 className="py-4 text-teal-600">Tools I Use</h4>
           <p className="text-gray-800 py-1">WordPress</p>
+          <p className="text-gray-800 py-1">React</p>
         </div>
       </div>
     </section>
