@@ -34,7 +34,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
-            alt="example-projects"
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -43,6 +43,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -51,6 +52,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -59,6 +61,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -67,6 +70,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -75,6 +79,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
 
@@ -84,6 +89,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -92,6 +98,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -100,6 +107,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -108,6 +116,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -116,6 +125,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
         <div className="basis-1/3 flex-1">
@@ -124,6 +134,7 @@ const Portfolio = () => {
             className="rounded-lg object-cover"
             width={"100%"}
             height={"100%"}
+            alt="vimukthi-bandaragoda-projects"
           />
         </div>
       </div>
