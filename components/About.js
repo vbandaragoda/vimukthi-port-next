@@ -1,9 +1,9 @@
 import React from "react";
 import {
-    AiFillTwitterCircle,
-    AiFillLinkedin,
-    AiFillBehanceCircle,
-  } from "react-icons/ai";
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillBehanceCircle,
+} from "react-icons/ai";
 
 const About = () => {
   return (
@@ -32,14 +32,14 @@ const About = () => {
           needs. Join me down below and lets get cracking!
         </p>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/vimukthi-bandaragoda-2955641a7/">
             <AiFillLinkedin />
           </a>
-          <a href="#">
-            <AiFillTwitterCircle />
-          </a>
-          <a href="#">
+          <a href="https://www.behance.net/vimukthinelanga">
             <AiFillBehanceCircle />
+          </a>
+          <a href="https://twitter.com/VimukthiNelang3">
+            <AiFillTwitterCircle />
           </a>
         </div>
       </div>
